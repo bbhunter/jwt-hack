@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788327961156,
+  "lastUpdate": 1789299960255,
   "repoUrl": "https://github.com/bbhunter/jwt-hack",
   "entries": {
     "jwt-hack benchmarks": [
@@ -131,6 +131,72 @@ window.BENCHMARK_DATA = {
             "name": "crack_brute_len3_lower",
             "value": 26604232,
             "range": "± 784261",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "225c7c6bc98edabaa115abf5e977bfb6f36d9506",
+          "message": "build(deps): bump reqwest from 0.13.4 to 0.13.5 (#302)\n\nBumps [reqwest](https://github.com/seanmonstar/reqwest) from 0.13.4 to 0.13.5.\n- [Release notes](https://github.com/seanmonstar/reqwest/releases)\n- [Changelog](https://github.com/seanmonstar/reqwest/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/seanmonstar/reqwest/compare/v0.13.4...v0.13.5)\n\n---\nupdated-dependencies:\n- dependency-name: reqwest\n  dependency-version: 0.13.5\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-09-13T14:40:05+09:00",
+          "tree_id": "35b0fea3b927e9365bb84beec0f21aed4bc98187",
+          "url": "https://github.com/bbhunter/jwt-hack/commit/225c7c6bc98edabaa115abf5e977bfb6f36d9506"
+        },
+        "date": 1789299959776,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "encode_hs256",
+            "value": 1183,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "encode_hs256_compressed",
+            "value": 12362,
+            "range": "± 19",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "decode",
+            "value": 1338,
+            "range": "± 25",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "verify_hs256",
+            "value": 3240,
+            "range": "± 42",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "verify_hs256_fastpath",
+            "value": 1517,
+            "range": "± 8",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "crack_dict_8_words",
+            "value": 11959,
+            "range": "± 72",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "crack_brute_len3_lower",
+            "value": 26366747,
+            "range": "± 134648",
             "unit": "ns/iter"
           }
         ]

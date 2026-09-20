@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789299960255,
+  "lastUpdate": 1789883157505,
   "repoUrl": "https://github.com/bbhunter/jwt-hack",
   "entries": {
     "jwt-hack benchmarks": [
@@ -197,6 +197,72 @@ window.BENCHMARK_DATA = {
             "name": "crack_brute_len3_lower",
             "value": 26366747,
             "range": "± 134648",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4c3f0d3ae0fa6708423e447113cc75ad432c578d",
+          "message": "build(deps): bump rmcp from 3.2.0 to 3.4.0 (#305)\n\n* build(deps): bump rmcp from 3.2.0 to 3.4.0\n\nBumps [rmcp](https://github.com/modelcontextprotocol/rust-sdk) from 3.2.0 to 3.4.0.\n- [Release notes](https://github.com/modelcontextprotocol/rust-sdk/releases)\n- [Changelog](https://github.com/modelcontextprotocol/rust-sdk/blob/main/release-plz.toml)\n- [Commits](https://github.com/modelcontextprotocol/rust-sdk/compare/rmcp-v3.2.0...rmcp-v3.4.0)\n\n---\nupdated-dependencies:\n- dependency-name: rmcp\n  dependency-version: 3.4.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\n\n* fix(mcp): update deprecated ServerInfo to ServerConfig for rmcp 3.4.0\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: hahwul <hahwul@gmail.com>",
+          "timestamp": "2026-09-20T12:26:43+09:00",
+          "tree_id": "e120dcbde34339a66a6a161703cf55c742d61488",
+          "url": "https://github.com/bbhunter/jwt-hack/commit/4c3f0d3ae0fa6708423e447113cc75ad432c578d"
+        },
+        "date": 1789883156538,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "encode_hs256",
+            "value": 1210,
+            "range": "± 27",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "encode_hs256_compressed",
+            "value": 11960,
+            "range": "± 142",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "decode",
+            "value": 1366,
+            "range": "± 43",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "verify_hs256",
+            "value": 3280,
+            "range": "± 40",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "verify_hs256_fastpath",
+            "value": 1493,
+            "range": "± 15",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "crack_dict_8_words",
+            "value": 11960,
+            "range": "± 37",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "crack_brute_len3_lower",
+            "value": 26340332,
+            "range": "± 357428",
             "unit": "ns/iter"
           }
         ]
